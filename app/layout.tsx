@@ -7,6 +7,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Algorithm Arena",
   description: "Weekly programming challenges",
+  openGraph: {
+    title: 'Algorithm Arena',
+    images: "/og",
+    siteName: 'Algorithm Arena',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    title: 'React Miami',
+    description: 'Weekly programming challenges',
+    card: 'summary_large_image',
+  }
 };
 
 export default function RootLayout({
