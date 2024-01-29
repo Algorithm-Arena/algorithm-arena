@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   description: "Weekly programming challenges",
   openGraph: {
     title: 'Algorithm Arena',
-    images: [{
+    /* images: [{
       url: 'https://basehub.earth/cdn-cgi/imagedelivery/AcMAerS13uRNdcqmxOA-IQ/273ebe35-9545-4d3b-f5c4-120b5b380d00/public',
       width: 1200,
       height: 630,
-    }],
+    }], */
     siteName: 'Algorithm Arena',
     locale: 'en_US',
     type: 'website',
