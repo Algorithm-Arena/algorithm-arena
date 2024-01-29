@@ -25,9 +25,9 @@ export default async function Home() {
     <main className="flex flex-col p-24">
       <div className="z-10 w-full font-mono text-sm">  
         <div className="mb-12 mx-auto max-w-2xl lg:mx-0">
-            <p className="text-lg font-semibold leading-8 tracking-tight text-gray-400">Weekly Challenge</p>
+            <p className="text-lg font-semibold leading-8 tracking-tight text-gray-600 dark:text-gray-400">Weekly Challenge</p>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-rose-500 sm:text-4xl">Algorithm Arena</h1>
-            <p className="mt-6 text-xl leading-8 text-rose-300">
+            <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-rose-300">
               Algorithm Arena is a weekly programming challenge designed to ignite your creativity and 
               showcase your programming skills.
             </p>
@@ -44,7 +44,7 @@ export default async function Home() {
                 </button>
               </a>
             </div>
-            <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-100">{challenge.title}</p>
+            <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900 dark:text-gray-100">{challenge.title}</p>
             <p className="pointer-events-none block text-sm font-medium text-gray-500">Weekly Challenge #{challenge._slug}</p>
           </li>
         ))}
