@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Algorithm Arena',
     images: [{
-      url: 'app/opengraph-image.png',
+      url: '/og',
       width: 1200,
       height: 630,
     }],
