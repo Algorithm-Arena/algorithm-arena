@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   twitter: {
-    title: 'React Miami',
+    title: 'Algorithm Arena',
     description: 'Weekly programming challenges',
     card: 'summary_large_image',
   }
