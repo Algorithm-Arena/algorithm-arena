@@ -9,11 +9,7 @@ export const metadata: Metadata = {
   description: "Weekly programming challenges",
   openGraph: {
     title: 'Algorithm Arena',
-    images: [{
-      url: '/og',
-      width: 1200,
-      height: 630,
-    }],
+    images: "/og",
     siteName: 'Algorithm Arena',
     locale: 'en_US',
     type: 'website',
