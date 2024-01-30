@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'Algorithm Arena',
     images: [
       {
-        url: 'http://algorithm-arena.com/api/og',
+        url: 'http://algorithm-arena.com/favicon.ico',
         width: 800,
         height: 600,
       },
